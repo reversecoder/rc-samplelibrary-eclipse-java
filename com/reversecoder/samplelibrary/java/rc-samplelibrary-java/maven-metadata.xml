@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.reversecoder.samplelibrary.java</groupId>
+  <artifactId>rc-samplelibrary-java</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170308131925</lastUpdated>
+  </versioning>
+</metadata>
