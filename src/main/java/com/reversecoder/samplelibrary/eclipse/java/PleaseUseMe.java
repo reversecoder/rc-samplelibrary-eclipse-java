@@ -1,4 +1,4 @@
-package com.reversecoder.samplelibrary.java;
+package com.reversecoder.samplelibrary.eclipse.java;
 
 public class PleaseUseMe {
 

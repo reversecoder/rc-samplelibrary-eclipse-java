@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.reversecoder.samplelibrary.java</groupId>
-    <artifactId>rc-samplelibrary-java</artifactId>
+    <groupId>com.reversecoder.samplelibrary.eclipse.java</groupId>
+    <artifactId>rc-samplelibrary-eclipse-java</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>rc-samplelibrary-java</name>
+    <name>rc-samplelibrary-eclipse-java</name>
 
     <description>This is a sample java eclipse library project.</description>
 
@@ -181,31 +181,31 @@
     </reporting>
 
     <scm>
-        <url>https://github.com/reversecoder/rc-samplelibrary-java/</url>
-        <connection>scm:git:https://github.com/reversecoder/rc-samplelibrary-java.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/reversecoder/rc-samplelibrary-java.git</developerConnection>
+        <url>https://github.com/reversecoder/rc-samplelibrary-eclipse-java/</url>
+        <connection>scm:git:https://github.com/reversecoder/rc-samplelibrary-eclipse-java.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/reversecoder/rc-samplelibrary-eclipse-java.git</developerConnection>
         <tag>${project.artifactId}-${project.version}</tag>
     </scm>
 
-    <url>git:snapshots://git@github.com:reversecoder/rc-samplelibrary-java.git</url>
-    <!-- <url>git:releases://git@github.com:reversecoder/rc-samplelibrary-java.git</url> -->
-    <!-- <url>git:gh-pages://git@github.com:reversecoder/rc-samplelibrary-java.git</url> -->
+    <url>git:snapshots://git@github.com:reversecoder/rc-samplelibrary-eclipse-java.git</url>
+    <!-- <url>git:releases://git@github.com:reversecoder/rc-samplelibrary-eclipse-java.git</url> -->
+    <!-- <url>git:gh-pages://git@github.com:reversecoder/rc-samplelibrary-eclipse-java.git</url> -->
 
     <distributionManagement>
         <repository>
             <id>releases</id>
             <name>releases</name>
-            <url>git:releases://git@github.com:reversecoder/rc-samplelibrary-java.git</url>
+            <url>git:releases://git@github.com:reversecoder/rc-samplelibrary-eclipse-java.git</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>snapshots</name>
-            <url>git:snapshots://git@github.com:reversecoder/rc-samplelibrary-java.git</url>
+            <url>git:snapshots://git@github.com:reversecoder/rc-samplelibrary-eclipse-java.git</url>
         </snapshotRepository>
         <site>
             <id>gh-pages</id>
             <name>gh-pages</name>
-            <url>git:gh-pages://git@github.com:reversecoder/rc-samplelibrary-java.git</url>
+            <url>git:gh-pages://git@github.com:reversecoder/rc-samplelibrary-eclipse-java.git</url>
         </site>
     </distributionManagement>
 </project>
